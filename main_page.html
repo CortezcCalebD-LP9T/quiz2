@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative; 
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15231691/453801468.0.0.1421786380.jpg?quality=90&strip=all&crop=0.095000000000006%2C0%2C99.81%2C100&w=2400') no-repeat center center fixed;
+            background-size: cover;
+        }
+        nav {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #ffd700; 
+        }
+        input[type="text"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button[type="submit"] {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .tiny-image {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px; 
+            height: auto; 
+            border-radius: 50%; 
+            border: 2px solid #fff; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="tiny-image" src="https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg" alt="Tiny Image">
+        <h1>Online Portfolio </h1>
+        <nav>
+            <ul>
+                <li><a href="first_quarter.html">First Quarter</a></li>
+                <li><a href="second_quarter.html">Second Quarter</a></li>
+            </ul>
+            <form id="searchForm" onsubmit="search()">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+    
+    
+
+    
+</body>
+</html>
